@@ -1,0 +1,34 @@
+.header {
+    background-color: rgb(82, 77, 77);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header__basket {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.header__basketIcon {
+    margin-top: 20px;
+    transform: scale(2.5);  
+    color: black;
+}
+.header__basketCount{
+ display: flex;
+ margin-top: 18px;
+}
+
+.header__basketCartIcon{
+ transform: scale(1.3);
+ color: black;
+}
+.header__count{
+    margin-left: 10px;
+    color: black;
+}
